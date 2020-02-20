@@ -1,0 +1,46 @@
+{
+  "name": "gh-web-proto-decode",
+  "version": "1.0.0",
+  "description": "A website which parses protobuf files and extracts device tokens.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/tailwind.css -o dist/tailwind.css",
+    "clean": "rimraf dist",
+    "build": "npm run clean && NODE_ENV=production webpack --mode production",
+    "serve": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "ghlocalapi", "google home", "protobuf" ],
+  "author": "Rithvik Vibhu <rithvikvibhu@gmail.com> (https://blek.ga)",
+  "bugs": {
+    "url": "https://github.com/rithvikvibhu/gh-web-proto-decode/issues",
+    "email" : "rithvikvibhu@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
+    "buffer": "^5.4.3",
+    "cssnano": "^4.1.10",
+    "rawproto": "^0.6.2",
+    "tailwindcss": "^1.2.0",
+    "vue-tailwind": "^0.4.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "rimraf": "^3.0.2",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
