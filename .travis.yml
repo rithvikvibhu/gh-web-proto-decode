@@ -13,5 +13,3 @@ deploy:
   local_dir: dist
   on:
     branch: master
-
-# npm install --only=dev

@@ -10,7 +10,7 @@
     "serve": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [ "ghlocalapi", "google home", "protobuf" ],
+  "keywords": [ "ghlocalapi", "google-home", "protobuf" ],
   "author": "Rithvik Vibhu <rithvikvibhu@gmail.com> (https://blek.ga)",
   "bugs": {
     "url": "https://github.com/rithvikvibhu/gh-web-proto-decode/issues",
