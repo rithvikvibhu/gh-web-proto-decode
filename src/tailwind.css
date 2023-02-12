@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    min-height: 100vh;
+}
 .link {
     @apply .text-blue-700 .underline
 }

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="flex-grow">
     <!-- File Select -->
     <section
       class="flex justify-around mx-20 mt-8 p-6 bg-blue-100 rounded-md border-2 border-blue-400"
